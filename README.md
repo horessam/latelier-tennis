@@ -21,10 +21,11 @@ Ce projet est une application **Spring Boot** permettant de gérer des **joueurs
 
    (ou `mvn spring-boot:run` si Maven est déjà installé)
 
-3. **Accéder à l'API en local :**
+3. **Accéder à l'API :**
 
    ```
-   http://localhost:8080/api/players
+   En local : http://localhost:8080/api/players
+   A distance : https://latelier-tennis.onrender.com/api/players
    ```
 
 ---
