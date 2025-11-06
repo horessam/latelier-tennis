@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: tennis-stats-api
+
+logging:
+  level:
+    com.tennis: INFO
+    org.springframework.web: INFO
