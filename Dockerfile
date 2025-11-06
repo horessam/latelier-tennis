@@ -22,4 +22,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 # Limite mémoire + port dynamique pour Render
-ENTRYPOINT ["sh","-c","java -XX:MaxRAMPercentage=75 -Dserver.port=${PORT} -jar /app.jar"]
+ENTRYPOINT ["sh","-c","java -XX:MaxRAMPercentage=75 -Dserver.port=${PORT} -jar app.jar"]
